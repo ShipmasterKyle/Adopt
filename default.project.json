@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "Adopt",
   "tree": {
     "$className": "DataModel",
     "ServerScriptService": {
@@ -11,6 +11,11 @@
       "$className": "ServerStorage",
       "$ignoreUnknownInstances": true,
       "$path": "src/ServerStorage"
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedStorage"
     },
     "StarterGui": {
       "$className": "StarterGui",
