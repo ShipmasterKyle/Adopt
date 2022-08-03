@@ -47,7 +47,9 @@ function service:getItemValue(item)
 end
 
 function service:Hatch(item)
-    --add
+    --Randomize the resulting pet
+    local rng = math.random(100)
+
 end
 
 return service
